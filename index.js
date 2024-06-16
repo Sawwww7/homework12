@@ -27,10 +27,10 @@ console.log(summ()) //6
 function counter(startValue, step) {
   let count = startValue;
   function increment() {
-    return (count = count + step);
+    return (count += step);
   }
   function decrement() {
-    return (count = count - step);
+    return (count -= step);
   }
   function reset() {
     return (count = startValue);
